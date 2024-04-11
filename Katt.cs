@@ -2,7 +2,7 @@ namespace KursProv
 {
     public class Katt : Djur
     {
-        public Katt(int å, string n, string a) : base(å, n, a)
+        public Katt(int å, string n, string a) : base(å, n, a) //Konstruktor
         {
             this.Ålder = å;
             this.Namn = n;
